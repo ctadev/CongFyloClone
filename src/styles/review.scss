@@ -1,0 +1,146 @@
+.review-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(218, 28%, 13%);
+  position: relative;
+  gap: 2rem;
+  padding-bottom: 20rem;
+  section {
+    background-color: hsl(219, 30%, 18%);
+    width: 80%;
+    padding: 2rem 1.5rem;
+    position: relative;
+    border-radius: 5px;
+    .qoute {
+      position: absolute;
+      left: 0;
+      top: -10%;
+      width: 25px;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+    section {
+      display: flex;
+      margin-top: 1rem;
+      padding: 0;
+      .img {
+        img {
+          border-radius: 50%;
+          width: 35px;
+          margin-right: 1rem;
+        }
+      }
+      .info {
+        margin-top: 0.2rem;
+        h1 {
+          font-size: 0.8rem;
+        }
+        p {
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+  .early {
+    position: absolute;
+    left: 20;
+    bottom: -17%;
+    h1 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    p {
+      margin-top: 1rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    input {
+      height: 3rem;
+      width: 100%;
+      border-radius: 25px;
+      border: none;
+      text-align: center;
+    }
+    button {
+      margin-top: 1.5rem;
+      height: 3rem;
+      width: 100%;
+      border-radius: 25px;
+      background-color: rgb(12, 180, 180);
+      border: none;
+      color: white;
+      &:hover {
+        cursor: pointer;
+        background-color: hsl(217, 54%, 47%);
+      }
+    }
+  }
+}
+@media (min-width: 500px) {
+  .review-container {
+    padding-top: 3rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .review-container {
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .review-container {
+    padding-top: 8rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .review-container {
+    min-height: 90vh;
+    flex-direction: row;
+    padding: 0 8rem;
+    padding-bottom: 10rem;
+    section {
+      p {
+        font-size: 1rem;
+      }
+      section {
+        .info {
+          h1 {
+            font-size: 1rem;
+          }
+          p {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+    .early {
+      bottom: -18%;
+      h1 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        button {
+          width: 30%;
+          margin: 0;
+        }
+        input {
+          width: 55%;
+          margin-left: 2rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.footer-container {
+  min-height: 50vh;
+  background-color: hsl(216, 53%, 9%);
+  padding-top: 15rem;
+  padding-bottom: 3rem;
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icons {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    i {
+      margin: 0 0.5rem;
+      font-size: 1.5rem;
+    }
+  }
+}

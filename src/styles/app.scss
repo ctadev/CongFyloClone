@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(218, 216, 216);
+}
+
+@import "./nav.scss";
+@import "./home.scss";
+@import "./features.scss";
+@import "./team.scss";
+@import "./review.scss";
+@import "./footer.scss";
